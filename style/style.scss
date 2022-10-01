@@ -1,0 +1,310 @@
+    $height-menu-top : 150px;
+    $height-img-slider-header: 600px;
+    $heiht-header-content : 670px;
+    $color-header :#7b7b7a ;
+    $height-icon : 50px;
+    $size-flashsale-product:150px;
+    $color-text : #d7580a;
+
+    @mixin icon-sale(){
+        top: 0%;
+        right: 0%;
+        height: 3%;
+        position: absolute;
+        text-align: center;
+        color: rgb(255, 34, 0);
+        i,p{
+            font-size: large;
+            font-weight: bold;
+        }       
+    }
+
+    body{
+        width: 100%;
+        margin: 0% auto;
+        padding: 0%;
+    }
+    header{
+        height: auto;  
+        .menu-logo-top{
+            height: auto;
+            background-image: url("/images/banner/vecteezy_orange-background-orange-gradient-background-for_8032461.jpg");
+            background-size: auto;
+            .menu-top{
+                height: auto;
+                ul{
+                    padding: 0%;
+                    height: auto;
+                    height: 100px;
+                    margin: 0%;
+                    width: 100%;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-around;
+                    list-style-type: none;
+                    li{
+                        text-align: center;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        height: 100%;
+                        a{
+                            color: #fdfbfa;
+                            font-size: x-large;
+                            font-weight: 600;
+                            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .header-logo-banner{
+        margin-top: 1%;
+        .logo{
+            display: flex;
+            width: 100%;
+            justify-content: center;
+            border-bottom: 5px solid #d7580a;
+            a{
+            width: auto;
+            height: auto;
+                img{
+                    margin: 0%;
+                    height: 300px;
+                    width: 260px;
+                    padding: 0%;
+                }
+             }
+        }
+        .banner-header{
+            height: max-content;
+            margin-top: 1%;
+            display:flex;
+            #flash-sale1 , #flash-sale2 {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+                flex-wrap: wrap-reverse;
+                height: 100%;
+               .title-flash-sale{
+                    width: 100%;
+                    height: 100%;
+                    bottom: 0%;
+                    margin-top: 3%;
+                    z-index: 1;
+                    background-image: url("/images/banner/vecteezy_orange-background-orange-gradient-background-for_8032461.jpg");
+                    background-size: cover;                    p{
+                        color: white;
+                        font-weight: 700;
+                        text-align: center;
+                        padding: 0%;
+                        margin: 0%;
+                        font-size: large;
+                    }
+               }
+                .flash-sale-pro{
+                    display: flex;
+                    flex-direction: column;
+                    width: 30%;
+                    height: 100%;
+                    position: relative;
+                    .icon-flashsale{
+                        @include icon-sale();
+                    }
+                    img{
+                        height: 65%;
+                        width: 100%;
+                    }
+                    .flash-sale-content{
+                        width: 100%;
+                        height: 10%;
+                        p , h4{
+                            font-size: small;
+                            text-align: center;
+                            color: red;
+                            font-weight: 700;
+                        }
+                    }
+                }
+            }
+        }
+        .text-promotion{
+            margin-top: 1%;
+            padding: 0%;
+            margin: 0%;
+            display: flex;
+            text-align: center;
+            flex-direction: column-reverse;
+            justify-content: center;
+            background-image: url("/images/background-flash-sale/bn1.jpg");
+            background-size: cover;
+            h2{
+                color: #d7580a;
+                margin: 0%;
+                font-weight: bold;
+                font-size: xx-large;
+            }
+        }
+        
+    }
+    .search-socialmedia{
+        height: $height-icon;
+        margin-top: 1.5%;
+        margin-bottom: -10px;
+        .list-sear-medi{
+            display: flex;
+            .search{
+                display: flex;
+                justify-content: left;
+                input{
+                    width: 92%;
+                    height: $height-icon;
+                    border: 0.5px solid #83838373;
+                }
+                i{
+                    width: $height-icon;
+                    height:  $height-icon;
+                    text-align: center;
+                    font-size: xx-large;
+                    line-height: $height-icon;
+                    background-color: #d7580a;
+                    color: white;
+                }
+            }
+            .socialmedia{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+                line-height: $height-icon;
+                a{
+                    color: #7b7b7a;
+                    font-size: large;
+                }
+                img{
+                    width: $height-icon;
+                    height: $height-icon;
+                }
+
+            }
+        }
+    }
+    .header-content{
+        height:  auto;
+        margin-top: 1%;
+        .menu-slider{
+            width: 100%;
+            height: 100%;
+            margin: 0%;
+            padding: 0%;
+            .left-menu{
+                height: 100%;
+                ul{
+                    text-align: left;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    li{
+                        list-style-type: none;
+                        height:70px ;
+                        i{
+                            color: #8a897c;
+                            margin-right: 10px;
+                        }
+                        a{
+                            color: black;
+                            font-size: medium;
+                        }
+                    }
+                }
+            }
+            .slider{
+                height: auto;
+                padding: 0%;
+                .slick-slider{
+                    padding: 0%;
+                    margin: 0%;
+                }
+                .click-prev-next{
+                    height: auto;
+                    position: relative;
+                    display: flex;
+                    justify-content: space-between;
+                    z-index: 1;
+                    top: 45%;
+                    #btn-prev{
+                        left: 0%;
+                        background-color: rgb(244, 238, 238,0%);
+                        border: none;
+                        i{
+                            font-size: 2rem;
+                        }
+                    }
+                    #btn-next{
+                        right: 0%;
+                        background-color: rgb(244, 238, 238,0%);
+                        border: none;
+                        i{
+                            font-size: 2rem;
+                        }
+                    }
+                }
+                .slick-prev{
+                    display: none;
+                }
+                .slick-next{
+                    display: none;
+                }
+                .slides{
+                    height: 100%;
+                    padding: 0%;
+                    margin: 0%;
+                    .slide{
+                        height: 100%;
+                        img{
+                            width: 100%;
+                            height: $height-img-slider-header;
+                            margin: 0%;
+                            padding: 0%;
+                        }
+                    }
+                }
+            }
+            .slider-product{
+                background-image: url('/images/banner-right.jpg');
+                background-size: cover;
+                background-repeat: no-repeat;
+
+               .content{
+                width: 100%;
+                height: 100%;
+                background-size: cover;
+                p{
+                width: 100%;
+                height: 100%;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                color: #ffffff;
+                font-weight: bold;
+                text-align: center;
+                font-size: xx-large;
+                }
+               }
+                
+            }
+        }
+        
+    }
+
+    .best-sale-products-slider{
+        height: 400px;
+        margin-top: 1%;
+        h1{
+            width: 100%;
+            text-align: justify;
+            color: $color-text;
+            color: white;
+            background-image: url("/images/background-flash-sale/bn2.jpg");
+            background-size: cover;
+        }
+    }
+
