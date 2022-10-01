@@ -55,8 +55,8 @@ header .menu-logo-top .menu-top ul li a {
 }
 .header-logo-banner .logo a img {
   margin: 0%;
-  height: 300px;
-  width: 260px;
+  height: 250px;
+  width: 200px;
   padding: 0%;
 }
 .header-logo-banner .banner-header {
@@ -77,8 +77,9 @@ header .menu-logo-top .menu-top ul li a {
   bottom: 0%;
   margin-top: 3%;
   z-index: 1;
-  background-image: url("/images/banner/vecteezy_orange-background-orange-gradient-background-for_8032461.jpg");
   background-size: cover;
+  background-color: #f6711f;
+  border-radius: 10px;
 }
 .header-logo-banner .banner-header #flash-sale1 .title-flash-sale p, .header-logo-banner .banner-header #flash-sale2 .title-flash-sale p {
   color: white;
@@ -101,7 +102,7 @@ header .menu-logo-top .menu-top ul li a {
   height: 3%;
   position: absolute;
   text-align: center;
-  color: rgb(255, 34, 0);
+  color: #ff6600;
 }
 .header-logo-banner .banner-header #flash-sale1 .flash-sale-pro .icon-flashsale i, .header-logo-banner .banner-header #flash-sale1 .flash-sale-pro .icon-flashsale p, .header-logo-banner .banner-header #flash-sale2 .flash-sale-pro .icon-flashsale i, .header-logo-banner .banner-header #flash-sale2 .flash-sale-pro .icon-flashsale p {
   font-size: large;
@@ -118,7 +119,7 @@ header .menu-logo-top .menu-top ul li a {
 .header-logo-banner .banner-header #flash-sale1 .flash-sale-pro .flash-sale-content p, .header-logo-banner .banner-header #flash-sale1 .flash-sale-pro .flash-sale-content h4, .header-logo-banner .banner-header #flash-sale2 .flash-sale-pro .flash-sale-content p, .header-logo-banner .banner-header #flash-sale2 .flash-sale-pro .flash-sale-content h4 {
   font-size: small;
   text-align: center;
-  color: red;
+  color: #ffc400;
   font-weight: 700;
 }
 .header-logo-banner .text-promotion {
@@ -140,9 +141,13 @@ header .menu-logo-top .menu-top ul li a {
 }
 
 .search-socialmedia {
-  height: 50px;
+  height: auto;
   margin-top: 1.5%;
-  margin-bottom: -10px;
+}
+.search-socialmedia .title-web h1 {
+  font-size: x-large;
+  text-align: center;
+  color: #f6711f;
 }
 .search-socialmedia .list-sear-medi {
   display: flex;
@@ -154,7 +159,7 @@ header .menu-logo-top .menu-top ul li a {
 .search-socialmedia .list-sear-medi .search input {
   width: 92%;
   height: 50px;
-  border: 0.5px solid rgba(131, 131, 131, 0.4509803922);
+  border: 0.5px solid #83838373;
 }
 .search-socialmedia .list-sear-medi .search i {
   width: 50px;
@@ -195,13 +200,16 @@ header .menu-logo-top .menu-top ul li a {
 }
 .header-content .menu-slider .left-menu ul {
   text-align: left;
+  margin: 0%;
+  margin-left: 7%;
+  padding: 0%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 .header-content .menu-slider .left-menu ul li {
   list-style-type: none;
-  height: 70px;
+  height: 56.25px;
 }
 .header-content .menu-slider .left-menu ul li i {
   color: #8a897c;
@@ -250,7 +258,7 @@ header .menu-logo-top .menu-top ul li a {
   display: none;
 }
 .header-content .menu-slider .slider .slides {
-  height: 100%;
+  height: 450px;
   padding: 0%;
   margin: 0%;
 }
@@ -259,7 +267,7 @@ header .menu-logo-top .menu-top ul li a {
 }
 .header-content .menu-slider .slider .slides .slide img {
   width: 100%;
-  height: 600px;
+  height: 450px;
   margin: 0%;
   padding: 0%;
 }
@@ -267,20 +275,6 @@ header .menu-logo-top .menu-top ul li a {
   background-image: url("/images/banner-right.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-}
-.header-content .menu-slider .slider-product .content {
-  width: 100%;
-  height: 100%;
-  background-size: cover;
-}
-.header-content .menu-slider .slider-product .content p {
-  width: 100%;
-  height: 100%;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  color: #ffffff;
-  font-weight: bold;
-  text-align: center;
-  font-size: xx-large;
 }
 
 .best-sale-products-slider {
@@ -290,7 +284,7 @@ header .menu-logo-top .menu-top ul li a {
 .best-sale-products-slider h1 {
   width: 100%;
   text-align: justify;
-  color: #d7580a;
+  color: #920b06;
   color: white;
   background-image: url("/images/background-flash-sale/bn2.jpg");
   background-size: cover;
