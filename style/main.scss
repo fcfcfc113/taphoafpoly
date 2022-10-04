@@ -1,0 +1,57 @@
+    $height-menu-top : 150px;
+    $height-img-slider-header: 450px;
+    $heiht-header-content : 670px;
+    $height-width-product : 160px;
+    $color-header :#7b7b7a ;
+    $height-icon : 50px;
+    $size-flashsale-product:150px;
+    $color-text :  #f6711f;
+
+    // HEADER
+    body{
+        width: 100%;
+        margin: 0% auto;
+        padding: 0%;
+    }
+    header{
+        height: auto;  
+        .menu-logo-top{
+            height: auto;
+            background-image: url("/images/banner/vecteezy_orange-background-orange-gradient-background-for_8032461.jpg");
+            background-size: auto;
+            .menu-top{
+                height: auto;
+                ul{
+                    padding: 0%;
+                    height: auto;
+                    height: 100px;
+                    margin: 0%;
+                    width: 100%;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-around;
+                    list-style-type: none;
+                    li{
+                        text-align: center;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        height: 100%;
+                        a{
+                            color: #fdfbfa;
+                            font-size: x-large;
+                            font-weight: 600;
+                            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    //CONTENT
+    @import "./src/home.scss";
+    
+    
+    
+    
+    //FOOTER
