@@ -284,10 +284,105 @@ header .menu-logo-top .menu-top ul li a {
 .best-sale-products-slider h1 {
   width: 100%;
   text-align: justify;
-  color: #920b06;
+  color: #f6711f;
   color: white;
   background-image: url("/images/background-flash-sale/bn2.jpg");
   background-size: cover;
+}
+.best-sale-products-slider .list-sale-product {
+  height: auto;
+  margin-top: 2%;
+}
+.best-sale-products-slider .list-sale-product .products .title-timeset-product {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.best-sale-products-slider .list-sale-product .products .title-timeset-product h3 {
+  color: #f6711f;
+  font-size: x-large;
+}
+.best-sale-products-slider .list-sale-product .products .title-timeset-product h3 i {
+  color: #f6ff00;
+}
+.best-sale-products-slider .list-sale-product .products .title-timeset-product .time-set {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-left: 3%;
+}
+.best-sale-products-slider .list-sale-product .products .title-timeset-product .time-set p {
+  font-size: x-large;
+  margin-left: 4%;
+}
+.best-sale-products-slider .list-sale-product .products .title-timeset-product .time-set .hour, .best-sale-products-slider .list-sale-product .products .title-timeset-product .time-set .minute, .best-sale-products-slider .list-sale-product .products .title-timeset-product .time-set .second {
+  background-color: #f00b40;
+  width: 50px;
+  text-align: center;
+  border-radius: 5px;
+  height: auto;
+  color: white;
+  font-weight: bold;
+}
+.best-sale-products-slider .list-sale-product .products .list-products {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.best-sale-products-slider .list-sale-product .products .list-products .product {
+  height: auto;
+  width: 160px;
+  padding: 0%;
+  margin: 2%;
+}
+.best-sale-products-slider .list-sale-product .products .list-products .product img {
+  width: 100%;
+  height: 70%;
+  object-fit: cover;
+}
+.best-sale-products-slider .list-sale-product .products .list-products .product p {
+  width: 100%;
+  text-align: center;
+  padding: 0%;
+  margin: 0%;
+  margin-bottom: 3px;
+  color: rebeccapurple;
+  height: 10%;
+}
+.best-sale-products-slider .list-sale-product .products .list-products .product .product-price {
+  color: #f00b40;
+  font-size: large;
+  font-weight: 600;
+}
+.best-sale-products-slider .list-sale-product .products .list-products .product .counter-buyer {
+  width: 100%;
+  height: 10%;
+  position: relative;
+}
+.best-sale-products-slider .list-sale-product .products .list-products .product .counter-buyer .line-up {
+  width: 50%;
+  border-radius: 10px;
+  position: absolute;
+  top: 0%;
+  height: 100%;
+  background-color: #f02d0b;
+}
+.best-sale-products-slider .list-sale-product .products .list-products .product .counter-buyer .line-down {
+  border-radius: 10px;
+  width: 100%;
+  height: 100%;
+  background-color: #f28d3b;
+}
+.best-sale-products-slider .list-sale-product .products .list-products .product .counter-buyer .line-down p {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  font-size: large;
+  color: white;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 /*# sourceMappingURL=style.css.map */

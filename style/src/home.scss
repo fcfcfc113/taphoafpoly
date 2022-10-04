@@ -1,64 +1,15 @@
-    $height-menu-top : 150px;
-    $height-img-slider-header: 450px;
-    $heiht-header-content : 670px;
-    $color-header :#7b7b7a ;
-    $height-icon : 50px;
-    $size-flashsale-product:150px;
-    $color-text : #920b06;
-
-    @mixin icon-sale(){
-        top: 0%;
-        right: 0%;
-        height: 3%;
-        position: absolute;
-        text-align: center;
-        color: rgb(255, 102, 0);
-        i,p{
-            font-size: large;
-            font-weight: bold;
-        }       
-    }
-
-    body{
-        width: 100%;
-        margin: 0% auto;
-        padding: 0%;
-    }
-    header{
-        height: auto;  
-        .menu-logo-top{
-            height: auto;
-            background-image: url("/images/banner/vecteezy_orange-background-orange-gradient-background-for_8032461.jpg");
-            background-size: auto;
-            .menu-top{
-                height: auto;
-                ul{
-                    padding: 0%;
-                    height: auto;
-                    height: 100px;
-                    margin: 0%;
-                    width: 100%;
-                    display: flex;
-                    flex-direction: row;
-                    justify-content: space-around;
-                    list-style-type: none;
-                    li{
-                        text-align: center;
-                        display: flex;
-                        flex-direction: column;
-                        justify-content: center;
-                        height: 100%;
-                        a{
-                            color: #fdfbfa;
-                            font-size: x-large;
-                            font-weight: 600;
-                            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-                        }
-                    }
-                }
-            }
-        }
-    }
+@mixin icon-sale(){
+    top: 0%;
+    right: 0%;
+    height: 3%;
+    position: absolute;
+    text-align: center;
+    color: rgb(255, 102, 0);
+    i,p{
+        font-size: large;
+        font-weight: bold;
+    }       
+}
     .header-logo-banner{
         margin-top: 1%;
         .logo{
@@ -219,7 +170,7 @@
                     justify-content: space-between;
                     li{
                         list-style-type: none;
-                        height:$height-img-slider-header/8 ;
+                        height:calc($height-img-slider-header / 8);                        ;
                         i{
                             color: #8a897c;
                             margin-right: 10px;
@@ -305,7 +256,6 @@
         }
         
     }
-
     .best-sale-products-slider{
         height: 400px;
         margin-top: 1%;
@@ -317,5 +267,108 @@
             background-image: url("/images/background-flash-sale/bn2.jpg");
             background-size: cover;
         }
-    }
+        .list-sale-product{
+            height: auto;
+            margin-top: 2%;
+            .products{
+                .title-timeset-product{
+                    width: 100%;
+                    display: flex;
+                    flex-direction: row;
+                    h3{
+                        color: $color-text;
+                        font-size: x-large;
+                        i{
+                            color: rgb(246, 255, 0);
+                        }
+                    }
+                    .time-set{
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: center;
+                        margin-left: 3%;
+                        p{
+                            font-size: x-large;
+                            margin-left: 4%;
+                        }
+                        .hour , .minute , .second{
+                            background-color: #f00b40;
+                            width: 50px;
+                            text-align: center;
+                            border-radius: 5px;
+                            height: auto;
+                            color: white;
+                            font-weight: bold;
+                        } 
+                    }
+                }
+            .list-products{
+                width: 100%;
+                display: flex;
+                flex-direction: row;
+                  .product{
+                height: auto;
+                width: 160px;
+                padding: 0%;
+                margin: 2%;
+                img{
+                    width:100%;
+                    height:70%;
+                    object-fit: cover;
+                }
+                p{
+                    width: 100%;
+                    text-align: center;
+                    padding: 0%;
+                    margin: 0%;
+                    margin-bottom: 3px;
+                    color: rebeccapurple;
+                    height: 10%;    
+                }
+                .product-price{
+                    color: #f00b40;
+                    font-size: large;
+                    font-weight: 600;
+                }
+                .counter-buyer{
+                    width: 100%;
+                    height: 10%;
+                    position: relative;
+                    .line-up{
+                        width: 50%;
+                        border-radius: 10px;
+                        position: absolute;
+                        top: 0%;
+                        height:100%;
+                        background-color: #f02d0b;
 
+                    }
+                    .line-down{
+                        border-radius: 10px;
+                        width: 100%;
+                        height:100%;                        
+                        background-color: #f28d3b;      
+                        p{
+                            position: absolute;
+                            width: 100%;
+                            height: 100%;
+                            font-size: large;
+                            color: white;
+                            font-weight: bold;
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: center;
+                        }                  
+
+                    }
+                }
+            }  
+            }
+            
+            }
+            
+            
+        }
+    }
+    
+    
