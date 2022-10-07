@@ -16,6 +16,15 @@
       autoplay: true,
    });
 
+    $('.banner-best-sale').slick({
+    infinite: true,
+    speed: 300,
+    slidesToShow: 1,
+    adaptiveHeight: true,
+    autoplay: true,
+    autoplaySpeed: 2000,
+  });
+
 $(".slick-next").css("display","none");
 $(".slick-prev").css("display","none");     
 let buttonNext = document.getElementById("btn-prev");
@@ -28,4 +37,7 @@ $(".slick-next").trigger("click");
 buttonPrev.addEventListener("click",function(){
   $(".slick-prev").trigger("click");
 })
+
+
+
 
