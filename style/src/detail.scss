@@ -1,0 +1,107 @@
+.title-detail-product{
+    .text{
+    color:orangered ;
+    font-size: x-large;
+    font-weight: 600;
+    }
+   .line{
+       border-bottom:0.5rem solid orangered ;
+       border-radius: 5%;
+   }
+}
+.detail-product{
+    width: auto;
+    height: auto;
+    margin-top: 5%;
+    .infomation-products{
+        min-height: $height-detail-product;
+        .images-product{
+            display: flex;
+            height: 100%;
+            flex-direction: column;
+            .img-main{
+                width: 100%;
+                margin-left: 0%;
+                height: 75%;
+                img{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+            .img-detail-slider{
+                width: 100%;
+                height: 20%;
+                display: flex;
+                flex-direction: row;
+                img{
+                    height: 100%;
+                    
+                }
+            }
+        }
+        .decription-product{
+            height: auto;
+            .name-product{
+                color: red;
+            }
+            .stars-discount{
+                display: flex;
+                flex-direction: row;
+                .stars{
+                    i{
+                        color: yellow;
+                    }
+                }
+                .discount{
+                    color: red;
+                    font-size: large;
+                    font-weight: bold;
+                    margin-left: 1%;
+                }
+            }
+            .text-promotion{
+                width: 100%;
+                height: auto;
+                p{
+                    width: 100%;
+                    font-size: x-large;
+                    background-color: rgb(231, 66, 16);
+                    color: white;
+                }
+            }
+            .price{
+                width: 100%;
+                display: flex;
+                .before-price{
+                    width: 30%;
+                    p{
+                    color: red;
+                    width: 100% ;
+                    line-height: 2;
+                    height: 100%;
+                    font-size: large;
+                    font-weight: bold;
+                    } 
+                    // .line-delete{
+                    //     position: absolute;
+                    //     top: 40%;
+                    //     width:60%;
+                    //     height: 2px;
+                    //     background-color: black;
+                    // } 
+                    
+                }
+                .after-price{
+                    width: 70%;
+                    p{
+                        color: red;
+                        width: 100% ;
+                        height: 100%;
+                        font-size: x-large;
+                        font-weight: bold;
+                        } 
+                }
+            }
+        }
+    }
+}
