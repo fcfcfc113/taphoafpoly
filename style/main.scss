@@ -1,7 +1,9 @@
     $height-menu-top : 150px;
     $height-img-slider-header: 450px;
     $heiht-header-content : 670px;
+    $height-banner-best-sale : 310px;
     $height-width-product : 160px;
+    $height-detail-product:700px;
     $color-header :#7b7b7a ;
     $height-icon : 50px;
     $size-flashsale-product:150px;
@@ -50,7 +52,7 @@
     }
     //CONTENT
     @import "./src/home.scss";
-    
+    @import "./src/detail.scss";
     
     
     
