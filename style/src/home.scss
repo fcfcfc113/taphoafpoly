@@ -43,7 +43,7 @@
     input[type=range]::-webkit-slider-runnable-track {
         width: 300px;
         height: 5px;
-        background: #ddd;
+        background: rgb(230, 154, 67);
         border: none;
         border-radius: 3px;
     }
@@ -63,13 +63,14 @@
     }
     
     input[type=range]:focus::-webkit-slider-runnable-track {
-        background: #ccc;
+        background: rgb(144, 143, 143);
     }
 }
 
     .header-logo-banner{
         margin-top: 1%;
         .logo{
+            border-radius: 50px;
             display: flex;
             width: 100%;
             justify-content: center;
@@ -79,22 +80,25 @@
             height: auto;
                 img{
                     margin: 0%;
-                    height: $height-width-product;
-                    width:$height-width-product;
+                    height:$height-width-logo;
+                    width:$height-width-logo;
                     padding: 0%;
                 }
              }
         }
         .banner-header{
             width: 100%;
-            #title-banner-header-flash-sale{
+            margin-top: 1%;
+            background-image: url('/images/background-flash-sale/2621918.jpg');
+            border-radius: 30px;
+            #title-banner-header-flash-sale{    
                 width: 100%;
                 margin: 0%;
                 margin-bottom: 1%;
                 margin-top: 1%;
-                background-image: url('/images//background-flash-sale/bn5.jpg');
+                background-image: url('/images//background-flash-sale/orange_3_generated.jpg');
                 background-size: cover;
-                color: white;
+                color: rgb(10, 10, 10);
                 font-weight: 700;
                 padding: 0%;
                 text-align: center;
@@ -103,6 +107,7 @@
                 width: 100%;
                 height: auto;
                 display:flex;
+                background-size: cover;
               #flash-sale1 , #flash-sale2 {
                 display: flex;
                 width: 50%;
@@ -141,6 +146,7 @@
                     }
                     img{
                         height: 65%;
+                        border-radius: 20px;
                         width: 100%;
                     }
                     .flash-sale-content{
@@ -149,7 +155,7 @@
                         p , h4{
                             font-size: small;
                             text-align: center;
-                            color: rgb(255, 196, 0);
+                            color: rgb(245, 244, 244);
                             font-weight: 700;
                         }
                     }
@@ -174,16 +180,18 @@
                 font-size: xx-large;
             }
         }
-        
     }
     .search-socialmedia{
         height: auto;
         margin-top: 1.5%;
+        border-radius: 50px;
+        
         // margin-bottom: -10px;
         .title-web{
             h1{
                 font-size: x-large;
-                text-align: center;
+                text-align: left;
+                line-height: 2;
                 color: #f6711f;
             }
         }
@@ -196,6 +204,8 @@
                     width: 92%;
                     height: $height-icon;
                     border: 0.5px solid #83838373;
+                    padding: 0%;
+                    margin: 0%;
                 }
                 i{
                     width: $height-icon;
@@ -312,7 +322,9 @@
         
     }
     .best-sale-products-slider{
-        height: auto;
+        min-height: $height-banner-best-sale;
+        padding: 0%;
+        margin: 0%;
         margin-top: 1%;
         h1{
             width: 100%;
@@ -323,30 +335,35 @@
             background-size: cover;
         }
         .list-sale-product{
-            min-height: 340px;
-            margin-top: 2%;
-            background-image: url("/images/background-flash-sale/bn5.jpg");
-            .products{
-                padding: 0%;
-                margin: 0%;
-                min-height: 340px;
-                .title-timeset-product{
+        height: 100%;
+        width: 100%;
+        background-image: url('/images/background-flash-sale/3601229.jpg');
+        background-size: auto;
+            .title-timeset-product{
                     width: 100%;
-                    margin-top: 4%;
+                    height: 10%;
+                    padding: 0%;
                     display: flex;
+                    justify-content: center;
                     flex-direction: row;
                     h3{
                         color: white;
-                        font-size: x-large;
+                        line-height: 2;
+                        font-size: xx-large;
+                        padding: 0%;
+                        font-family: Arial, Helvetica, sans-serif;
                         i{
                             color: rgb(246, 255, 0);
                         }
                     }
                     .time-set{
+                        padding: 0%;
+                        margin: 0%;
                         display: flex;
                         flex-direction: row;
                         justify-content: center;
-                        margin-left: 3%;
+                        height: 100%;
+                        margin-left: 1%;
                         p{
                             font-size: x-large;
                             margin-left: 4%;
@@ -356,132 +373,73 @@
                             width: 50px;
                             text-align: center;
                             border-radius: 5px;
-                            height: auto;
+                            height: 100%;
+                            line-height: 2;
                             color: white;
                             font-weight: bold;
                         } 
                     }
-                }
-                .list-products{
-                width: 100%;
-                height: auto;
-                display: flex;
-                flex-direction: row;
-                justify-content: center;
-                .product{
-                height: auto;
-                width: 160px;
-                padding: 0%;
-                margin: 2%;
-                
-                img{
-                    width:100%;
-                    height:70%;
-                    padding: 0%;
-                    object-fit: contain;
-                }
-                p{
-                    width: 100%;
-                    text-align: center;
-                    padding: 0%;
-                    font-size: small;
-                    color: white;
-                    height: auto;    
-                }
-                .product-price{
-                    color: white;
-                    font-size: large;
-                    font-weight: 600;
-                }
-                .counter-buyer{
-                    width: 100%;
-                    height: 10%;
-                    position: relative;
-                    .line-up{
-                        width: 50%;
-                        border-radius: 10px;
-                        position: absolute;
-                        top: 0%;
-                        height:100%;
-                        background-color: #f02d0b;
-
-                    }
-                    .line-down{
-                        border-radius: 10px;
-                        width: 100%;
-                        height:100%;                        
-                        background-color: #f28d3b;      
-                        p{
-                            position: absolute;
-                            width: 100%;
-                            height: 100%;
-                            font-size: small;
-                            color: white;
-                            font-weight: bold;
-                            display: flex;
-                            flex-direction: column;
-                            justify-content: center;
-                        }                  
-
-                    }
-                }
-            }  
-                }
             }
-            .banner-best-sale{
-                min-height: 330px;
+            .list-best-sale-product{
+                height: 88%;
+                width: 100%;
+                margin: 0%;
+                margin-bottom: 1%;
+                margin-top: 1%;
                 padding: 0%;
-                .product-sale-slider::after{
-                    content: " ";
-                    position: absolute;
-                    top: 0%;
-                    width: 100%;
-                    height: 0%;            
-                    background-color: #f6f5f599;
-                }
-                .product-sale-slider:hover::after{
-                content: "% SALE HÔM NAY % ";
-                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-                height: 100%;
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-                color: #fb6304;
-                font-weight: bolder;
-                line-height: -100%;
-                font-size: xx-large;
-                text-align: center;
-                transition: 0.6s;
-                }
-                .product-sale-slider{
-                    position: relative;
-                    height: 90%;
-                    img{
-                    top: 0%;
-                    padding: 0%;
-                    z-index: 0;
-                    width: 100%;
-                    left: 10%;
+                .bs-product{
                     height: 100%;
-                    object-fit: cover;
+                    img{
+                        height: 70%;
+                        width: 100%;
+                        border: 1px solid rgb(135, 135, 135);
+
+                        object-fit: cover;
                     }
-                    
-                    button{
-                        position: absolute;
-                        bottom: 0%;
-                        z-index: 1;
-                        width: 100%;                        
-                        height: 15%;
-                        padding: 0%;
-                        border: none;
-                        font-size: large;
-                        background-color: #fd7608cd;
-                        color: white;
-                        
-                    }  
+                    .decription{
+                        p{
+                            padding: 0%;
+                            width: 100%;
+                            height: 10%;
+                            margin: 0%;
+                            text-align: center;
+                        }
+                        #id-product{
+                            color: black;
+                            font-weight: 400;
+                        }
+                        #price-product{
+                            color: rgb(167, 12, 12);
+                            font-weight: 800;
+                        }
+                        .counter{
+                            position: relative;
+                            #under{
+                                top: 0%;
+                                width: 100%;
+                                height: 5%;
+                                background-image: url("/images/background-flash-sale/bn5.jpg");
+                                background-size: cover;
+                                border: 1px solid whitesmoke;
+                                border-radius: 10px;
+                                #top{
+                                    top: 0%;
+                                    z-index: 10;
+                                    width: 50%;
+                                    height: 5%;
+                                    z-index: 1;
+                                    color: white;
+                                    font-size: large;
+                                    background-color: rgb(214, 92, 30);
+                                    text-align: center;
+                                    border-radius: 10px;
+
+                                }
+                            }
+                        }
+                    }
                 }
-                
-            }    
+            }     
         }
     }
     .suggest-products-today{
@@ -522,8 +480,8 @@
                 margin-top: 2%;
                 height: auto;
                 .search{
-                height: auto;
-                width: 30%;
+                    min-height: 80px;
+                    width: 30%;
                 display: flex;
                 padding: 0%;
                 justify-content: left;
@@ -560,7 +518,7 @@
                         list-style-type: none;
                         height: 100%;
                         a{
-                            color: #fedd04;
+                            color: #9c5300;
                             font-weight: 700;
                             font-size: large;
                             line-height: $height-icon;
@@ -577,6 +535,8 @@
                 display: flex;
                 flex-direction: column;
                 justify-content: end;
+                border-bottom: 2px solid #f77307f3;
+                border-radius: 25px;
                 p{
                     width: 100%;
                     text-align: center;
@@ -594,14 +554,15 @@
             }
         }
         .list-suggest-products{
-            margin-top: 4%;
-            height: 800px;
+            margin-top: 2%;
+            height: auto;
             .list-products{
                 width: 100%;
                 height: auto;
                 margin: 0%;
                 padding: 0%;
                .product{
+                margin-bottom: 5%;
                 @include product();
             } 
             }
@@ -609,7 +570,7 @@
                 text-align: center;
                 margin-top: 2%;
                 a{
-                    margin-left: 50%;
+                    margin-left: 40%;
                     font-size: larger;
                     color: #d7580a;
                 }

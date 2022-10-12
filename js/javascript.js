@@ -16,14 +16,7 @@
       autoplay: true,
    });
 
-    $('.banner-best-sale').slick({
-    infinite: true,
-    speed: 300,
-    slidesToShow: 1,
-    adaptiveHeight: true,
-    autoplay: true,
-    autoplaySpeed: 2000,
-  });
+  
 
 $(".slick-next").css("display","none");
 $(".slick-prev").css("display","none");     
@@ -61,6 +54,20 @@ $(".color").click(function(){
   $(".color").prop( "checked", false );
   $(this).prop( "checked", true );
 });
+
+
+if (window.matchMedia('screen and (max-width: 768px)').matches) {
+  alert(window.matchMedia('screen and (max-width: 768px)'));
+  $('.list-best-sale-product').slick({
+    infinite: true,
+    speed: 300,
+    slidesToShow: 1,
+    adaptiveHeight: true,
+    autoplay: true,
+    autoplaySpeed: 2000,
+  });
+}
+
 
 
 
