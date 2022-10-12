@@ -32,6 +32,29 @@ buttonPrev.addEventListener("click",function(){
 })
 
 
+//slick-slider detail product
+
+$('.img-main').slick({
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  arrows: false,
+  fade: true,
+  asNavFor: '.img-detail-slider'
+});
+$('.img-detail-slider').slick({
+  slidesToShow: 3,
+  slidesToScroll: 1,
+  asNavFor: '.img-main',
+  dots: true,
+  centerMode: true,
+  focusOnSelect: true
+});
+
+$(".color").click(function(){
+  $(".color").prop( "checked", false );
+  $(this).prop( "checked", true );
+});
+
 
 if (window.matchMedia('screen and (max-width: 768px)').matches) {
   alert(window.matchMedia('screen and (max-width: 768px)'));
