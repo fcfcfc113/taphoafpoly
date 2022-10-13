@@ -8,7 +8,6 @@
     $height-icon : 50px;
     $size-flashsale-product:150px;
     $color-text :  #f6711f;
-
     // HEADER
     body{
         margin: 0%;
@@ -19,7 +18,7 @@
         .menu-logo-top{
             height: auto;
             background-image: url("/images/banner/vecteezy_orange-background-orange-gradient-background-for_8032461.jpg");
-            background-size: auto;
+            background-size: cover;
             .menu-top{
                 height: auto;
                 ul{
@@ -52,7 +51,110 @@
     //CONTENT
     @import "./src/home.scss";
     @import "./src/detail.scss";
-    
+    @import "./src/reponsive_home.scss";
+
+ 
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    header{
+        .menu-logo-top{
+            .menu-top{
+                ul{
+                    height: 50px;
+                    li{
+                        a{
+                            color: #fdfbfa;
+                            font-size: 10px;
+                            font-weight: 600;
+                            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    header{
+        .menu-logo-top{
+            .menu-top{
+                ul{
+                    height: 70px;
+                    li{
+                        a{
+                            color: #fdfbfa;
+                            font-size: small;
+                            font-weight: 600;
+                            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    header{
+        .menu-logo-top{
+            .menu-top{
+                ul{
+                    li{
+                        a{
+                            color: #fdfbfa;
+                            font-size: medium;
+                            font-weight: 600;
+                            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    header{
+        .menu-logo-top{
+            .menu-top{
+                ul{
+                    li{
+                        a{
+                            color: #fdfbfa;
+                            font-size: x-large;
+                            font-weight: 600;
+                            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    header{
+        .menu-logo-top{
+            .menu-top{
+                ul{
+                    li{
+                        a{
+                            color: #fdfbfa;
+                            font-size: x-large;
+                            font-weight: 600;
+                            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
     
     
     //FOOTER

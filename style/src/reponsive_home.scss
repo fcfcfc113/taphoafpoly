@@ -1,0 +1,164 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    $height-width-logo : 170px;
+    $height-icon : 35px;
+    $height-img-slider-header:500px;
+    .header-logo-banner{
+        .logo{
+            a{
+                img{
+                    width:$height-width-logo ;
+                    height:$height-width-logo ;
+                }
+             }
+        }
+        .banner-header{
+            #title-banner-header-flash-sale{    
+                color: rgb(99, 39, 4);  
+            }
+            .list-flash-sale-banner{
+            #flash-sale1 , #flash-sale2 
+            {
+               .title-flash-sale
+               {
+                    border-radius: 7px;
+                    p{
+                        font-size: large;
+                    }
+               }
+                .flash-sale-pro{
+                    .icon-flashsale
+                    {
+                        @include icon-sale();
+                    }
+                    img
+                    {
+                        height: 65%;
+                    }
+                    .flash-sale-content
+                    {
+                        p , h4
+                        {
+                            font-size: small;
+                        }
+                    }
+                }
+            }  
+            }
+        }
+        .text-promotion{
+            margin-top: 1%;
+            h2{
+                font-size: xx-large;
+            }
+        }
+    }
+    .search-socialmedia{
+        .title-web{
+            h1{
+                font-size: large;
+            }
+        }
+        .list-sear-medi
+        {
+            .search
+            {
+                input
+                {
+                    height: $height-icon;
+                }
+                i
+                {
+                    width: $height-icon;
+                    height:  $height-icon;
+                    font-size: x-large;
+                    line-height: $height-icon;
+                }
+            }
+            .socialmedia
+            {
+                line-height: $height-icon;
+                a
+                {
+                    color: #7b7b7a;
+                    font-size: large;
+                }
+                img
+                {
+                    width: $height-icon;
+                    height: $height-icon;
+                }
+
+            }
+        }
+    }
+    .header-content{
+        .menu-slider{
+            .left-menu{
+                ul{
+                    margin-left: 0%;
+                    li{
+                        list-style-type: none;
+                        height:calc($height-img-slider-header / 8);                        ;
+                        i{
+                            margin-right: 7px;
+                        }
+                        a{
+                            font-size: small;
+                        }
+                    }
+                }
+            }
+            .slider{
+                .slick-slider{
+                }
+                .click-prev-next{
+                    #btn-prev{
+                        i{
+                            font-size: 2rem;
+                        }
+                    }
+                    #btn-next{
+                        i{
+                            font-size: 2rem;
+                        }
+                    }
+                }
+                .slick-prev{
+                    display: none;
+                }
+                .slick-next{
+                    display: none;
+                }
+                .slides{
+                    height: $height-img-slider-header;
+                    padding: 0%;
+                    margin: 0%;
+                    .slide{
+                        height: 100%;
+                        img{
+                            width: 100%;
+                            height: $height-img-slider-header;
+                            margin: 0%;
+                            padding: 0%;
+                        }
+                    }
+                }
+            }
+        }
+        
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}

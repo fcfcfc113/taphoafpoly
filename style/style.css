@@ -9,7 +9,7 @@ header {
 header .menu-logo-top {
   height: auto;
   background-image: url("/images/banner/vecteezy_orange-background-orange-gradient-background-for_8032461.jpg");
-  background-size: auto;
+  background-size: cover;
 }
 header .menu-logo-top .menu-top {
   height: auto;
@@ -45,16 +45,13 @@ header .menu-logo-top .menu-top ul li a {
 .header-logo-banner .logo {
   border-radius: 50px;
   display: flex;
+  flex-direction: row;
   width: 100%;
   justify-content: center;
   border-bottom: 5px solid #d7580a;
 }
-.header-logo-banner .logo a {
-  width: auto;
-  height: auto;
-}
 .header-logo-banner .logo a img {
-  margin: 0%;
+  margin-top: 22%;
   height: 270px;
   width: 270px;
   padding: 0%;
@@ -72,7 +69,7 @@ header .menu-logo-top .menu-top ul li a {
   margin-top: 1%;
   background-image: url("/images//background-flash-sale/orange_3_generated.jpg");
   background-size: cover;
-  color: rgb(10, 10, 10);
+  color: #0a0a0a;
   font-weight: 700;
   padding: 0%;
   text-align: center;
@@ -123,7 +120,7 @@ header .menu-logo-top .menu-top ul li a {
   height: 3%;
   position: absolute;
   text-align: center;
-  color: rgb(255, 102, 0);
+  color: #ff6600;
 }
 .header-logo-banner .banner-header .list-flash-sale-banner #flash-sale1 .flash-sale-pro .icon-flashsale i, .header-logo-banner .banner-header .list-flash-sale-banner #flash-sale1 .flash-sale-pro .icon-flashsale p, .header-logo-banner .banner-header .list-flash-sale-banner #flash-sale2 .flash-sale-pro .icon-flashsale i, .header-logo-banner .banner-header .list-flash-sale-banner #flash-sale2 .flash-sale-pro .icon-flashsale p {
   font-size: large;
@@ -141,7 +138,7 @@ header .menu-logo-top .menu-top ul li a {
 .header-logo-banner .banner-header .list-flash-sale-banner #flash-sale1 .flash-sale-pro .flash-sale-content p, .header-logo-banner .banner-header .list-flash-sale-banner #flash-sale1 .flash-sale-pro .flash-sale-content h4, .header-logo-banner .banner-header .list-flash-sale-banner #flash-sale2 .flash-sale-pro .flash-sale-content p, .header-logo-banner .banner-header .list-flash-sale-banner #flash-sale2 .flash-sale-pro .flash-sale-content h4 {
   font-size: small;
   text-align: center;
-  color: rgb(245, 244, 244);
+  color: #f5f4f4;
   font-weight: 700;
 }
 .header-logo-banner .text-promotion {
@@ -183,7 +180,7 @@ header .menu-logo-top .menu-top ul li a {
 .search-socialmedia .list-sear-medi .search input {
   width: 92%;
   height: 50px;
-  border: 0.5px solid rgba(131, 131, 131, 0.4509803922);
+  border: 0.5px solid #83838373;
   padding: 0%;
   margin: 0%;
 }
@@ -287,6 +284,9 @@ header .menu-logo-top .menu-top ul li a {
   height: 650px;
   padding: 0%;
   margin: 0%;
+  height: 100%;
+  position: relative;
+  top: -5%;
 }
 .header-content .menu-slider .slider .slides .slide {
   height: 100%;
@@ -334,7 +334,7 @@ header .menu-logo-top .menu-top ul li a {
   font-family: Arial, Helvetica, sans-serif;
 }
 .best-sale-products-slider .list-sale-product .title-timeset-product h3 i {
-  color: rgb(246, 255, 0);
+  color: #f6ff00;
 }
 .best-sale-products-slider .list-sale-product .title-timeset-product .time-set {
   padding: 0%;
@@ -373,7 +373,7 @@ header .menu-logo-top .menu-top ul li a {
 .best-sale-products-slider .list-sale-product .list-best-sale-product .bs-product img {
   height: 70%;
   width: 100%;
-  border: 1px solid rgb(135, 135, 135);
+  border: 1px solid #878787;
   object-fit: cover;
 }
 .best-sale-products-slider .list-sale-product .list-best-sale-product .bs-product .decription p {
@@ -388,7 +388,7 @@ header .menu-logo-top .menu-top ul li a {
   font-weight: 400;
 }
 .best-sale-products-slider .list-sale-product .list-best-sale-product .bs-product .decription #price-product {
-  color: rgb(167, 12, 12);
+  color: #a70c0c;
   font-weight: 800;
 }
 .best-sale-products-slider .list-sale-product .list-best-sale-product .bs-product .decription .counter {
@@ -411,7 +411,7 @@ header .menu-logo-top .menu-top ul li a {
   z-index: 1;
   color: white;
   font-size: large;
-  background-color: rgb(214, 92, 30);
+  background-color: #d65c1e;
   text-align: center;
   border-radius: 10px;
 }
@@ -444,7 +444,7 @@ header .menu-logo-top .menu-top ul li a {
 .suggest-products-today .search-list .range-calculator .range-feture input[type=range]::-webkit-slider-runnable-track {
   width: 300px;
   height: 5px;
-  background: rgb(230, 154, 67);
+  background: #e69a43;
   border: none;
   border-radius: 3px;
 }
@@ -454,14 +454,14 @@ header .menu-logo-top .menu-top ul li a {
   height: 25px;
   width: 25px;
   border-radius: 50%;
-  background: rgb(245, 92, 3);
+  background: #f55c03;
   margin-top: -10px;
 }
 .suggest-products-today .search-list .range-calculator .range-feture input[type=range]:focus {
   outline: none;
 }
 .suggest-products-today .search-list .range-calculator .range-feture input[type=range]:focus::-webkit-slider-runnable-track {
-  background: rgb(144, 143, 143);
+  background: #908f8f;
 }
 .suggest-products-today .search-list .range-calculator #result {
   width: 100%;
@@ -470,7 +470,7 @@ header .menu-logo-top .menu-top ul li a {
   font-size: larger;
   text-align: center;
   line-height: 15px;
-  background-color: rgba(247, 115, 7, 0.9529411765);
+  background-color: #f77307f3;
   color: white;
   border: none;
 }
@@ -491,7 +491,7 @@ header .menu-logo-top .menu-top ul li a {
 .suggest-products-today .search-list .search-menu .search input {
   width: 100%;
   height: 50px;
-  border: 0.5px solid rgba(131, 131, 131, 0.4509803922);
+  border: 0.5px solid #83838373;
 }
 .suggest-products-today .search-list .search-menu .search i {
   width: 50px;
@@ -499,7 +499,7 @@ header .menu-logo-top .menu-top ul li a {
   text-align: center;
   font-size: x-large;
   line-height: 50px;
-  background-color: rgba(247, 115, 7, 0.9529411765);
+  background-color: #f77307f3;
   color: white;
 }
 .suggest-products-today .search-list .search-menu .menu {
@@ -535,7 +535,7 @@ header .menu-logo-top .menu-top ul li a {
   display: flex;
   flex-direction: column;
   justify-content: end;
-  border-bottom: 2px solid rgba(247, 115, 7, 0.9529411765);
+  border-bottom: 2px solid #f77307f3;
   border-radius: 25px;
 }
 .suggest-products-today .title-suggest .title p {
@@ -549,7 +549,7 @@ header .menu-logo-top .menu-top ul li a {
 .suggest-products-today .title-suggest .line {
   padding: 0%;
   margin: 0%;
-  border-top: 0.5rem solid rgba(247, 115, 7, 0.9529411765);
+  border-top: 0.5rem solid #f77307f3;
   border-radius: 20px;
 }
 .suggest-products-today .list-suggest-products {
@@ -691,6 +691,166 @@ header .menu-logo-top .menu-top ul li a {
   height: 100%;
   font-size: x-large;
   font-weight: bold;
+}
+
+/* Extra small devices (phones, 600px and down) */
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/* Medium devices (landscape tablets, 768px and up) */
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .header-logo-banner .logo a img {
+    width: 170px;
+    height: 170px;
+  }
+  .header-logo-banner .banner-header #title-banner-header-flash-sale {
+    color: #632704;
+  }
+  .header-logo-banner .banner-header .list-flash-sale-banner #flash-sale1 .title-flash-sale, .header-logo-banner .banner-header .list-flash-sale-banner #flash-sale2 .title-flash-sale {
+    border-radius: 7px;
+  }
+  .header-logo-banner .banner-header .list-flash-sale-banner #flash-sale1 .title-flash-sale p, .header-logo-banner .banner-header .list-flash-sale-banner #flash-sale2 .title-flash-sale p {
+    font-size: large;
+  }
+  .header-logo-banner .banner-header .list-flash-sale-banner #flash-sale1 .flash-sale-pro .icon-flashsale, .header-logo-banner .banner-header .list-flash-sale-banner #flash-sale2 .flash-sale-pro .icon-flashsale {
+    top: 0%;
+    right: 0%;
+    height: 3%;
+    position: absolute;
+    text-align: center;
+    color: #ff6600;
+  }
+  .header-logo-banner .banner-header .list-flash-sale-banner #flash-sale1 .flash-sale-pro .icon-flashsale i, .header-logo-banner .banner-header .list-flash-sale-banner #flash-sale1 .flash-sale-pro .icon-flashsale p, .header-logo-banner .banner-header .list-flash-sale-banner #flash-sale2 .flash-sale-pro .icon-flashsale i, .header-logo-banner .banner-header .list-flash-sale-banner #flash-sale2 .flash-sale-pro .icon-flashsale p {
+    font-size: large;
+    font-weight: bold;
+  }
+  .header-logo-banner .banner-header .list-flash-sale-banner #flash-sale1 .flash-sale-pro img, .header-logo-banner .banner-header .list-flash-sale-banner #flash-sale2 .flash-sale-pro img {
+    height: 65%;
+  }
+  .header-logo-banner .banner-header .list-flash-sale-banner #flash-sale1 .flash-sale-pro .flash-sale-content p, .header-logo-banner .banner-header .list-flash-sale-banner #flash-sale1 .flash-sale-pro .flash-sale-content h4, .header-logo-banner .banner-header .list-flash-sale-banner #flash-sale2 .flash-sale-pro .flash-sale-content p, .header-logo-banner .banner-header .list-flash-sale-banner #flash-sale2 .flash-sale-pro .flash-sale-content h4 {
+    font-size: small;
+  }
+  .header-logo-banner .text-promotion {
+    margin-top: 1%;
+  }
+  .header-logo-banner .text-promotion h2 {
+    font-size: xx-large;
+  }
+
+  .search-socialmedia .title-web h1 {
+    font-size: large;
+  }
+  .search-socialmedia .list-sear-medi .search input {
+    height: 35px;
+  }
+  .search-socialmedia .list-sear-medi .search i {
+    width: 35px;
+    height: 35px;
+    font-size: x-large;
+    line-height: 35px;
+  }
+  .search-socialmedia .list-sear-medi .socialmedia {
+    line-height: 35px;
+  }
+  .search-socialmedia .list-sear-medi .socialmedia a {
+    color: #7b7b7a;
+    font-size: large;
+  }
+  .search-socialmedia .list-sear-medi .socialmedia img {
+    width: 35px;
+    height: 35px;
+  }
+
+  .header-content .menu-slider .left-menu ul {
+    margin-left: 0%;
+  }
+  .header-content .menu-slider .left-menu ul li {
+    list-style-type: none;
+    height: 62.5px;
+  }
+  .header-content .menu-slider .left-menu ul li i {
+    margin-right: 7px;
+  }
+  .header-content .menu-slider .left-menu ul li a {
+    font-size: small;
+  }
+  .header-content .menu-slider .slider .click-prev-next #btn-prev i {
+    font-size: 2rem;
+  }
+  .header-content .menu-slider .slider .click-prev-next #btn-next i {
+    font-size: 2rem;
+  }
+  .header-content .menu-slider .slider .slick-prev {
+    display: none;
+  }
+  .header-content .menu-slider .slider .slick-next {
+    display: none;
+  }
+  .header-content .menu-slider .slider .slides {
+    height: 500px;
+    padding: 0%;
+    margin: 0%;
+  }
+  .header-content .menu-slider .slider .slides .slide {
+    height: 100%;
+  }
+  .header-content .menu-slider .slider .slides .slide img {
+    width: 100%;
+    height: 500px;
+    margin: 0%;
+    padding: 0%;
+  }
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  header .menu-logo-top .menu-top ul {
+    height: 50px;
+  }
+  header .menu-logo-top .menu-top ul li a {
+    color: #fdfbfa;
+    font-size: 10px;
+    font-weight: 600;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  header .menu-logo-top .menu-top ul {
+    height: 70px;
+  }
+  header .menu-logo-top .menu-top ul li a {
+    color: #fdfbfa;
+    font-size: small;
+    font-weight: 600;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  header .menu-logo-top .menu-top ul li a {
+    color: #fdfbfa;
+    font-size: medium;
+    font-weight: 600;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  header .menu-logo-top .menu-top ul li a {
+    color: #fdfbfa;
+    font-size: x-large;
+    font-weight: 600;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  header .menu-logo-top .menu-top ul li a {
+    color: #fdfbfa;
+    font-size: x-large;
+    font-weight: 600;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
